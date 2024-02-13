@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- fontawesome icons -->
+    <script
+      src="https://kit.fontawesome.com/f20bbc81be.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/x-icon" href="images/favicon-bw.ico" />
+    <title>Bowen WEI | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="d-flex flex-column">
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary navbar-light px-sm-5 px-3"
+      id="navbar"
+    >
+      <div class="container-fluid">
+        <a
+          class="navbar-brand border-0 email d-flex align-items-center fs-md-5 fs-6"
+          href="#"
+          ><div class="icon-container">
+            <i class="fa-regular fa-envelope"></i>
+          </div>
+          <span>wei@et.esiea.fr</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skill-section">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projet-section">Projets</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- home section -->
+    <section
+      class="home d-flex align-items-center justify-content-center"
+      id="home"
+    >
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-8 d-flex flex-column align-items-center text-center">
+          <h1 class="fs-md-2 fs-3 mb-4 fw-normal lh-m">
+            Salut, je suis
+            <div class="d-inline" style="position: relative">
+              <span class="fw-bold" id="name"
+                >Bowen WEI.<img src="images/circle.png" id="circle" />
+              </span>
+            </div>
+            Etudiant en 3ème année à <a href="https://esiea.fr">l'ESIEA</a>,
+            passionné par le développement web
+          </h1>
+          <h2 class="fs-md-3 fs-5 mb-5 fw-normal">
+            Je recherche une alternance développeur
+            <div class="d-inline" style="position: relative">
+              <span class="fw-bold" id="position">frontend / fullstack</span>
+              <img src="images/underline_wave.png" alt="" id="underline_wave" />
+            </div>
+          </h2>
+          <div
+            class="d-flex flex-column flex-md-row align-items-center"
+            style="gap: 1rem"
+          >
+            <a
+              href="#projet-section"
+              class="btn rounded-pill border-black border-2 px-3"
+            >
+              Voir mes projets
+            </a>
+            <a
+              class="btn rounded-pill border-black border-2 px-3"
+              href="CV_Bowen_WEI.pdf"
+              download
+            >
+              Mon CV
+            </a>
+            <ul class="logos d-flex mx-md-5">
+              <li>
+                <a href="https://github.com/bowen-wei" target="_blank"
+                  ><img src="images/logos/github-mark.png" alt="github"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/bowen-wei-21563b265/"
+                  target="_blank"
+                  ><img src="images/logos/linkedin.png" alt="linkedin"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.frontendmentor.io/profile/bowen-wei"
+                  target="_blank"
+                  ><img
+                    src="images/logos/frontendmentor.png"
+                    alt="Frontend Mentor"
+                    title="Frontend Mentor"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills section -->
+    <section class="skills d-flex flex-column" id="skill-section">
+      <div class="banner">
+        <h2 class="fs-md-3 fs-4 fw-bold text-center text-white mt-5">
+          Mes compétences
+        </h2>
+      </div>
+      <div class="container text-center p-5 text-nowrap row-gap-5">
+        <p class="mb-3">Languages de programmation</p>
+        <div class="row row-gap-4 mb-5">
+          <div class="col-md col-3">
+            <i class="fa-brands fa-java fa-2xl"></i>
+          </div>
+          <div class="col-md col-3">
+            <i class="fa-brands fa-html5 fa-2xl"></i>
+          </div>
+          <div class="col-md col-3">
+            <i class="fa-brands fa-css3-alt fa-2xl"></i>
+          </div>
+          <div class="col-md col-3">
+            <i class="fa-brands fa-js-square fa-2xl"></i>
+          </div>
+          <div class="col-md col-3">
+            <i class="fa-brands fa-python fa-2xl"></i>
+          </div>
+          <div class="col-md col-3"><i class="fa-solid fa-c fa-2xl"></i></div>
+        </div>
+        <p class="mb-3">Frameworks et librairies</p>
+        <div class="row row-gap-4 mb-5">
+          <div class="col-md col-3">
+            <i class="fa-brands fa-bootstrap fa-2xl"></i>
+          </div>
+          <div class="col-md col-3">
+            <i class="fa-brands fa-react fa-2xl"></i>
+          </div>
+          <div class="col-md col-3">
+            <i class="fa-brands fa-node-js fa-2xl"></i>
+          </div>
+          <div class="col-md col-3">
+            <i class="fa-brands fa-angular fa-2xl"></i>
+          </div>
+          <div class="col-md col-3">
+            <i class="fa-brands fa-node fa-2xl"></i>
+          </div>
+        </div>
+        <p>Outils de développement</p>
+        <div class="row row-gap-4">
+          <div class="col-md col-3">
+            <i class="fa-brands fa-git-alt fa-2xl"></i>
+          </div>
+          <div class="col-md col-3">
+            <i class="fa-brands fa-github fa-2xl"></i>
+          </div>
+          <div class="col-md col-3">
+            <i class="fa-brands fa-gitlab fa-2xl"></i>
+          </div>
+          <div class="col-md col-3">
+            <i class="fa-brands fa-npm fa-2xl"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects section -->
+    <section
+      class="projets d-flex flex-column"
+      id="projet-section"
+      style="margin-bottom: 6rem"
+    >
+      <h2 class="fs-md-3 fs-4 fw-bold text-center my-5">Projets Récents</h2>
+      <div class="container projet-container">
+        <div class="row row-gap-5">
+          <!-- projet 1 -->
+          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+            <a
+              href="https://rest-country-bowen-wei.vercel.app/all"
+              target="_blank"
+            >
+              <div class="card" style="width: 20rem">
+                <img
+                  src="images/project_thumbnails/rest-country.jpg"
+                  alt="rest-country-app"
+                />
+                <div class="card-body">
+                  <h5 class="card-title d-flex" style="width: fit-content">
+                    REST Country API
+                  </h5>
+                  <p class="card-text">
+                    Une application web qui affiche les informations de tous les
+                    pays du monde
+                  </p>
+                  <div class="container features" style="font-size: 0.8rem">
+                    <span class="rounded-pill">Angular</span>
+                    <span class="rounded-pill">Bootstrap</span>
+                    <span class="rounded-pill">REST API</span>
+                  </div>
+                </div>
+              </div></a
+            >
+          </div>
+          <!-- projet-2 -->
+          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+            <a href="https://bowen-wei.github.io/myteam-site/" target="_blank">
+              <div class="card" style="width: 20rem">
+                <img
+                  src="images/project_thumbnails/myteam-site.jpg"
+                  alt="myteam-site"
+                />
+                <div class="card-body">
+                  <h5 class="card-title d-flex" style="width: fit-content">
+                    Myteam Website
+                  </h5>
+                  <p class="card-text">
+                    Une application web qui affiche les informations de tous les
+                    pays du monde
+                  </p>
+                  <div class="container features" style="font-size: 0.8rem">
+                    <span class="rounded-pill">Responsive</span>
+                  </div>
+                </div>
+              </div></a
+            >
+          </div>
+          <!-- projet 3 -->
+          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+            <a href="https://bowen-wei.github.io/todo-app/" target="_blank">
+              <div class="card" style="width: 20rem">
+                <img
+                  src="images/project_thumbnails/todo-app.jpg"
+                  alt="todo-app"
+                />
+                <div class="card-body">
+                  <h5 class="card-title d-flex" style="width: fit-content">
+                    TODO App
+                  </h5>
+                  <p class="card-text">
+                    Une application web qui affiche les informations de tous les
+                    pays du monde
+                  </p>
+                  <div class="container features" style="font-size: 0.8rem">
+                    <span class="rounded-pill">React</span>
+                  </div>
+                </div>
+              </div></a
+            >
+          </div>
+          <!-- projet 4 -->
+          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+            <a
+              href="https://bowen-wei.github.io/password-generator/"
+              target="_blank"
+            >
+              <div class="card" style="width: 20rem">
+                <img
+                  src="images/project_thumbnails/password-generator.jpg"
+                  alt="password-generator"
+                />
+                <div class="card-body">
+                  <h5 class="card-title d-flex" style="width: fit-content">
+                    Password Generator
+                  </h5>
+                  <p class="card-text">
+                    Une application web qui affiche les informations de tous les
+                    pays du monde
+                  </p>
+                  <div class="container features" style="font-size: 0.8rem">
+                    <span class="rounded-pill">Javascript</span>
+                    <span class="rounded-pill">Regex</span>
+                  </div>
+                </div>
+              </div></a
+            >
+          </div>
+
+          <!-- projet 5 -->
+          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+            <a
+              href="https://bowen-wei.github.io/advice-generator/"
+              target="_blank"
+            >
+              <div class="card" style="width: 20rem">
+                <img
+                  src="images/project_thumbnails/advice-generator.jpg"
+                  alt="advice-generator"
+                />
+                <div class="card-body">
+                  <h5 class="card-title d-flex" style="width: fit-content">
+                    Advice Generator
+                  </h5>
+                  <p class="card-text">
+                    Une application web qui affiche les informations de tous les
+                    pays du monde
+                  </p>
+                  <div class="container features" style="font-size: 0.8rem">
+                    <span class="rounded-pill">React</span>
+                    <span class="rounded-pill">API</span>
+                  </div>
+                </div>
+              </div></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="container-fluid d-flex flex-column align-items-center justify-content-center text-white py-2"
+      style="background: black"
+    >
+      <p class="text-center m-0" style="font-size: 0.8rem">
+        &copy; 2023 Bowen WEI. Tous droits réservés.
+      </p>
+    </footer>
+  </body>
+</html>
