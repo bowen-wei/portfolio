@@ -233,11 +233,12 @@ div.card .features > span {
 #btn-back-to-top {
   position: fixed;
   bottom: 20px;
-  right: 10px;
-  width: 75px;
+  right: 25px;
+  width: 80px;
   display: none;
-  z-index: 1000;
+  z-index: 10;
   border: 0;
+  padding-inline: 1rem;
 }
 
 #btn-back-to-top img {
