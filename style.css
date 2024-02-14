@@ -104,6 +104,21 @@ ul {
   background-color: #343a40;
   height: 300px;
   z-index: -1;
+  position: relative;
+}
+
+.banner > h2::before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: calc(50% - 120px);
+  z-index: -1;
+  width: 240px;
+  height: 50px;
+  background-image: url("images/underline_wave.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .skills .container {
@@ -113,6 +128,24 @@ ul {
   max-width: 75%;
   -webkit-box-shadow: 1px 7px 15px -3px rgba(0, 0, 0, 0.65);
   box-shadow: 1px 7px 15px -3px rgba(0, 0, 0, 0.65);
+}
+
+.projets {
+  position: relative;
+}
+
+.projets > h2::before {
+  content: "";
+  position: absolute;
+  background-image: url("images/circle.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 80px;
+  height: 80px;
+  z-index: -1;
+  top: 15px;
+  left: calc(50% - 120px);
 }
 
 div.card {
@@ -183,20 +216,32 @@ div.card .features > span {
 /* additional decorations for home */
 #circle {
   position: absolute;
-  width: 100px;
-  height: 100px;
-  top: -35px;
-  left: -20px;
+  width: 120px;
+  top: -10px;
+  left: -10px;
   z-index: -1;
 }
 
 #underline_wave {
   position: absolute;
-  width: 110%;
-  height: 20px;
-  bottom: -16px;
-  left: -10px;
+  width: 100px;
+  bottom: -8px;
+  left: -5px;
   z-index: -1;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  width: 75px;
+  display: none;
+  z-index: 1000;
+  border: 0;
+}
+
+#btn-back-to-top img {
+  width: 100%;
 }
 
 @media (min-width: 992px) {
@@ -236,5 +281,18 @@ div.card .features > span {
   .skills .container {
     transform: translateY(-220px);
     max-width: 55%;
+  }
+
+  #circle {
+    width: 180px;
+    top: -20px;
+    left: -20px;
+    z-index: -1;
+  }
+
+  #underline_wave {
+    width: 180px;
+    bottom: -15px;
+    left: 0px;
   }
 }
